@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha com IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jogo da Cobrinha</h1>
+        
+        <div class="score-board">
+            <span>Pontuação: <strong id="score">0</strong></span>
+        </div>
+
+        <div class="controls-panel">
+            <label for="difficulty">Dificuldade:</label>
+            <select id="difficulty">
+                <option value="150">Fácil</option>
+                <option value="70">Difícil</option>
+            </select>
+            <button id="btn-start">Iniciar / Reiniciar</button>
+        </div>
+
+        <canvas id="snakeCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
